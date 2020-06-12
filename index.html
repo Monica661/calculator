@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf_8">
+       <title>my page</title>
+       <link href="style2.css" rel="stylesheet" type="text/css" /> 
+   </head>
+   <body>
+      <div class="style1"> 
+          <form name="cal">         
+               <input type="text" size="18" id="d" name="dis">     
+               <br><br>
+              
+                 <input type="button" value="7" class="inp" onclick="cal.dis.value+='7'">
+                 <input type="button" value="8" class="inp" onclick="cal.dis.value+='8'">
+                 <input type="button" value="9" class="inp" onclick="cal.dis.value+='9'">
+                 <input type="button" value="*" class="in" onclick="cal.dis.value+='*'">
+                 <br><br>
+                 <input type="button" value="4" class="inp" onclick="cal.dis.value+='4'">
+                 <input type="button" value="5" class="inp" onclick="cal.dis.value+='5'">
+                 <input type="button" value="6" class="inp" onclick="cal.dis.value+='6'">
+                 <input type="button" value="-" class="in" onclick="cal.dis.value+='-'">
+                 <br><br>
+                 <input type="button" value="1"class="inp"onclick="cal.dis.value+='1'">
+                 <input type="button" value="2"class="inp"onclick="cal.dis.value+='2'">
+                 <input type="button" value="3"class="inp"onclick="cal.dis.value+='3'">
+                 <input type="button" value="+"class="in"onclick="cal.dis.value+='+'">
+                 <br><br>
+                 <input type="button" value="0"class="inp"onclick="cal.dis.value+='0'">
+                 <input type="button" value="."class="inp"onclick="cal.dis.value+='.'">
+                 <input type="button" value="c"class="inp"onclick="cal.dis.value+='c'">
+                 <input type="button" value="="class="in"onclick="cal.dis.value= eval(cal.dis.value)">
+                 <br><br><input type="button" value="delete"onclick="cal.dis.value=''"id="del">
+              
+            </form>    
+      </div> 
+   </body>
+</html>
